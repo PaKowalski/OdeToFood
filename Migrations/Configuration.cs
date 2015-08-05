@@ -49,7 +49,7 @@ namespace OdeToFood.Migrations
             var membership = (SimpleMembershipProvider)Membership.Provider;
 
             
-            
+            /*
             if (!roles.RoleExists("Admin"))
             {
                 roles.CreateRole("Admin");
@@ -63,7 +63,7 @@ namespace OdeToFood.Migrations
             {
                 roles.AddUsersToRoles(new[] { "sallen" }, new[] { "admin" });
             }
-             
+             */
         }
 
         
